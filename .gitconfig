@@ -1,0 +1,14 @@
+[user]
+	name = moriyamato
+	email = flactly@gmail.com
+[alias]
+    tree = log --graph --pretty=format:'%x09%C(auto) %h %Cgreen %ar %Creset%x09by"%C(cyan ul)%an%Creset" %x09%C(auto)%s %d'
+	b = branch
+	ch = checkout
+	bd = branch -d
+	st = status
+	ad = add -A
+	poh = push origin head
+	sw = switch
+[core]
+	editor = lvim
