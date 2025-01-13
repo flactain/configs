@@ -1,6 +1,6 @@
-# Config files
-## .github
-put `.github` to `~/.github` 
+onfig files
+## .gitconfig
+put `.gitconfig` to `~/.gitconfig` 
 
 ## config.lua
 put `config.lua` to `~/.config/lvim/config.lua` 
