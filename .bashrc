@@ -138,3 +138,4 @@ export PATH=$PATH:~/go/bin
 
 #kubernetes
 export KUBE_EDITOR=~/.local/bin/lvim
+source <(kubectl completion bash)
