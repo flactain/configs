@@ -1,9 +1,12 @@
-onfig files
-## .gitconfig
+# config files
+## Git Profile
 put `.gitconfig` to `~/.gitconfig` 
 
-## config.lua
-put `config.lua` to `~/.config/lvim/config.lua` 
+## LunarVim
+put `.config/lvim/config.lua` to `~/.config/lvim/config.lua` 
 
-## .bashrc
+## Bash profile
 put `.bashrc` to `~/.bashrc`
+
+## Tabby profile
+put `.config/tabby/config.yaml` to `~/.config/tabby/config.yaml`
