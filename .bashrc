@@ -135,3 +135,6 @@ export NVM_DIR="$HOME/.nvm"
 
 #go
 export PATH=$PATH:~/go/bin
+
+#kubernetes
+export KUBE_EDITOR=~/.local/bin/lvim
