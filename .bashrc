@@ -122,7 +122,7 @@ HISTSIZE=100000
 source /usr/share/doc/fzf/examples/key-bindings.bash
 #oh-my-posh
 export PATH=$PATH:/home/moriyamato/.local/bin
-eval "$(oh-my-posh init bash --config ~/.poshthemes/powerlevel10k_classic.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.poshthemes/atomic.omp.json)"
 . "$HOME/.cargo/env"
 
 #rustlings
@@ -141,3 +141,11 @@ export KUBE_EDITOR=~/.local/bin/lvim
 source <(kubectl completion bash)
 alias k=kubectl
 complete -o default -F __start_kubectl k
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+#gcp
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/moriyamato/google-cloud-sdk/path.bash.inc' ]; then . '/home/moriyamato/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/moriyamato/google-cloud-sdk/completion.bash.inc' ]; then . '/home/moriyamato/google-cloud-sdk/completion.bash.inc'; fi

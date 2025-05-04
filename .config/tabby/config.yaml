@@ -63,17 +63,15 @@ hotkeys:
     - F11
     - Alt-Enter
   close-tab:
-    - Ctrl-Shift-W
+    - Ctrl-Q
   reopen-tab:
     - Ctrl-Shift-Z
   toggle-last-tab: []
   rename-tab:
     - Ctrl-Shift-R
   next-tab:
-    - Ctrl-Shift-Right
     - Ctrl-Tab
   previous-tab:
-    - Ctrl-Shift-Left
     - Ctrl-Shift-Tab
   move-tab-left:
     - Ctrl-Shift-PageUp
@@ -117,13 +115,13 @@ hotkeys:
   tab-19: []
   tab-20: []
   split-right:
-    - Alt-Shift-D
-  split-left: []
-  split-top: []
+    - Ctrl-Shift-\
+  split-left:
+    - Ctrl-Shift-]
+  split-top:
+    - Ctrl-Shift-Up
   pane-nav-down:
-    - Ctrl-Alt-Down
-  pane-nav-next:
-    - Ctrl-Alt-]
+    - Ctrl-Shift-J
   pane-nav-1: []
   pane-nav-2: []
   pane-nav-3: []
@@ -135,8 +133,6 @@ hotkeys:
   pane-nav-9: []
   pane-maximize:
     - Ctrl-Alt-Enter
-  close-pane:
-    - Alt-Shift-W
   pane-increase-vertical: []
   pane-decrease-vertical: []
   pane-increase-horizontal: []
@@ -148,23 +144,25 @@ hotkeys:
   command-selector:
     - Ctrl-Shift-P
   split-bottom:
-    - Ctrl-Shift-D
+    - Ctrl-Shift-Down
   clear:
     - Ctrl-K
-  pane-nav-previous:
-    - Ctrl-Alt-[
   pane-nav-left:
-    - Ctrl-Alt-Left
-  pane-nav-right:
-    - Ctrl-Alt-Right
+    - Ctrl-Shift-H
   search-in-browser:
     - Ctrl-Shift-S
   qc:
     - Alt-Q
   pane-nav-up:
-    - Ctrl-Alt-Up
+    - Ctrl-Shift-K
   new-tab:
     - Ctrl-Shift-T
+  pane-nav-previous: []
+  pane-nav-next: []
+  pane-nav-right:
+    - Ctrl-Shift-L
+  close-pane:
+    - Ctrl-Shift-W
 terminal:
   frontend: xterm-webgl
   fontWeightBold: 700
@@ -289,6 +287,14 @@ ssh:
       port: 22
       type: ecdsa-sha2-nistp256
       digest: RqAHZ7MMytQtED/kvh9olEm8BFVm1WferfXtYMuv6o4=
+    - host: mori.nuc1.internal
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: oCTnInK/reeEa675uixz+0ThINVR5qUBa4SqploI+5A=
+    - host: mori.nuc2.internal
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: oGPMPeLmD5lEu1KIlA1qQOqhSoZIwfT6L2y+Vl06WQU=
   verifyHostKeys: true
 configSync:
   configID: null

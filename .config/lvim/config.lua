@@ -35,3 +35,6 @@ lvim.plugins = {
     branch = "master",
   }
 }
+
+--yank sync clipboard
+vim.opt.clipboard = "unnamedplus"  -- システムのクリップボードと連携
