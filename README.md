@@ -1,12 +1,14 @@
 # config files
-## Git Profile
-put `.gitconfig` to `~/.gitconfig` 
+## how to use
+please apply the hierarchy of this project to your directries.
+### apply
+```bash
+chmod 777 apply_configs.sh
+./apply_configs.sh apply
+```
 
-## LunarVim
-put `.config/lvim/config.lua` to `~/.config/lvim/config.lua` 
-
-## Bash profile
-put `.bashrc` to `~/.bashrc`
-
-## Tabby profile
-put `.config/tabby/config.yaml` to `~/.config/tabby/config.yaml`
+### get
+```bash
+chmod 777 apply_configs.sh
+./apply_configs.sh get
+```
