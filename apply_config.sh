@@ -53,4 +53,4 @@ for i in ${!files[@]}; do
   fi
 done
 
-echo "apply files succesfully."
+echo "end succesfully."
